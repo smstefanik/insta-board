@@ -1,0 +1,170 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+{ 
+	margin: 0;
+	padding: 0;
+}
+
+@font-face
+{
+	font-family: "Roadgeek2005SeriesB";
+	src: url("fonts/Roadgeek 2005 Series B.otf");
+}
+@font-face
+{
+	font-family: "Roadgeek2005SeriesC";
+	src: url("fonts/Roadgeek 2005 Series C.otf");
+}
+@font-face
+{
+	font-family: "Roadgeek2005SeriesD";
+	src: url("fonts/Roadgeek 2005 Series D.otf");
+}
+@font-face
+{
+	font-family: "Roadgeek2005SeriesE";
+	src: url("fonts/Roadgeek 2005 Series E.otf");
+}
+
+/* COLORS */
+.yellow
+{
+	color:rgb(255,198,0);
+}
+.green
+{
+	color:rgb(0, 186, 0);
+}
+.red
+{
+	color:rgb(255, 48, 0);
+}
+.purple
+{
+	color:rgb(155, 0, 194);
+}
+.blue
+{
+	color:rgb(0, 108, 230);
+}
+.gray
+{
+	color:rgb(112, 112, 112); 
+}
+.pink
+{
+	color:rgb(252, 88, 181);
+}
+.aqua
+{
+	color:rgb(0, 159, 153);
+}
+.orange
+{
+	color:rgb(252, 107, 0);
+}
+.lightGray
+{
+	color:rgb(174, 183, 188);
+}
+
+body
+{
+	color:#fff;
+	/*background-color:#222;*/
+	font-family: "Roadgeek2005SeriesC";
+	background:none;
+}
+
+a.button:link, a.button:visited, a.button:active
+{
+	
+	text-decoration: none;
+
+	border: solid 3px rgb(252, 107, 0);
+	border-radius: 12px;
+	padding:10px 15px;
+	margin:10px;
+	display: inline-block;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.font1
+{
+	font-size:18px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.mainWrapper
+{
+	width:250px;
+	height: 250px;
+	position: relative;
+}
+
+.infoWrapper
+{
+	width:230px;
+	height: 44px;
+	position: relative;
+	padding:10px;
+}
+
+
+.profileImage
+{
+
+}
+
+.username
+{
+	position: absolute;
+	left:64px;
+	top:14px;
+	right:64px;	
+	font-size: 20px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.fullName
+{
+	position: absolute;
+	left:64px;
+	top:36px;
+	right:64px;	
+	font-size: 13px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+.likes
+{
+	padding-top:13px;
+	font-size: 16px;
+	text-align: center;
+	color:#000;
+	overflow: hidden;
+}
+
+.heart
+{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width:48px;
+	height: 42px;
+	background-image: url('heart.png');	
+	/*background-size: 24px 21px;*/
+}
+
+.errorMessage
+{
+	text-align: center;
+	padding-top:30px;
+	display: none;
+}
